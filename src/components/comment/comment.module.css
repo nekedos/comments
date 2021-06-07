@@ -1,0 +1,41 @@
+.root {
+}
+
+.root > .root {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.author {
+  color: #414b50;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  fill: #b58ba9;
+  margin-right: 8px;
+}
+
+.message {
+  color: #111;
+  font-size: 17px;
+  line-height: 1.46;
+  padding: 5px 10px;
+  margin-left: 22px;
+  margin-right: -10px;
+  margin-bottom: 25px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.selectedMessage {
+  background-color: #65a3be;
+  color: white;
+}

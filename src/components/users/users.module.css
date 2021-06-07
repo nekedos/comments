@@ -1,0 +1,11 @@
+.root {
+  width: 40%;
+}
+
+.user {
+  margin-bottom: 20px;
+}
+
+.user:last-child {
+  margin-bottom: 0;
+}

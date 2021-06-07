@@ -1,0 +1,24 @@
+.btn {
+  color: #414b50;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.btn:hover,
+.isSelected {
+  color: #65a3be;
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  fill: #b58ba9;
+  margin-right: 8px;
+}
